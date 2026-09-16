@@ -6,3 +6,8 @@ services:
    ports:
      - "8088:80"
 
+  web2:
+   image: thananwat007x/ce-web:1.0
+   ports:   
+     - "8089:80"
+
