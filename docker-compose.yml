@@ -1,0 +1,8 @@
+name: ceksu-web
+
+services:
+  web:
+   build: .
+   ports:
+     - "8088:80"
+
